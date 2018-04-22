@@ -1,11 +1,11 @@
-function DisableOutputPlugin() {}
+function DisableOutputWebpackPlugin() {}
 
-DisableOutputPlugin.prototype.apply = function(compiler) {
-  compiler.hooks.emit.tapAsync('DisableOutputPlugin', (compilation, callback) => {
+DisableOutputWebpackPlugin.prototype.apply = function(compiler) {
+  compiler.hooks.emit.tapAsync('DisableOutputWebpackPlugin', (compilation, callback) => {
     Object.keys(compilation.assets).forEach(asset => delete compilation.assets[asset]);
     callback();
   });
 };
 
-module.exports = DisableOutputPlugin;
+module.exports = DisableOutputWebpackPlugin;
 
