@@ -1,0 +1,23 @@
+{
+  "name": "webpack-disable-output-plugin",
+  "version": "1.0.0",
+  "description": "Disables saving output files in Webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrac/webpack-disable-output-plugin.git"
+  },
+  "keywords": [
+    "disable",
+    "saving",
+    "output",
+    "files",
+    "webpack"
+  ],
+  "author": "Michal Raczkowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrac/webpack-disable-output-plugin/issues"
+  },
+  "homepage": "https://github.com/mrac/webpack-disable-output-plugin#readme"
+}
