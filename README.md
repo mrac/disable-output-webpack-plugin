@@ -1,2 +1,2 @@
-# webpack-disable-output-plugin
+# disable-output-webpack-plugin
 Disables saving output files in Webpack
