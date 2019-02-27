@@ -16,7 +16,7 @@ const DisableOutputWebpackPlugin = require('disable-output-webpack-plugin');
 
 module.exports = {
   plugins: [
-    new DisableOutputWebpackPlugin()
+    new DisableOutputWebpackPlugin({test: /\.js$/})
   ]
 }
 ```
